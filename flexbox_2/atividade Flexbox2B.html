@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+.flex-item {
+    width: 100px;
+    height: 100px;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+}
+
+.base {
+    margin-bottom: 15px;
+    background-color: #d0d3d4;
+    border-radius: 4px;
+}
+
+.containerB{
+    display: flex;
+    justify-content:flex-start;
+    align-items:flex-start;
+    flex-direction: column;
+    flex-flow: column-reverse;
+}
+.containerDesafio{
+    display: flex;
+    justify-content:flex-end;
+    align-items:flex-start;
+    flex-direction: row-reverse;
+}
+
+.box1 {
+    background-color: #63b1bc;
+}
+
+.box2 {
+    background-color: #1f2a44;
+}
+
+.box3 {
+    background-color: #ed145b;
+}
+
+.box4 {
+    background-color: #efb661;
+}
+
+h1 {
+    width: fit-content;
+    margin: auto;
+}
+
+
+</style>
+<body>
+    <div class="base containerB">
+        <div class="flex-item box1"><h1>1</h1></div>
+        <div class="flex-item box2"><h1>2</h1></div>
+        <div class="flex-item box3"><h1>3</h1></div>
+        <div class="flex-item box4"><h1>4</h1></div>
+    </div>
+    <div class="base containerDesafio">
+        <div class="flex-item box1"><h1>1</h1></div>
+        <div class="flex-item box2"><h1>2</h1></div>
+        <div class="flex-item box3"><h1>3</h1></div>
+        <div class="flex-item box4"><h1>4</h1></div>
+    </div>
+    
+</body>
+</html>
